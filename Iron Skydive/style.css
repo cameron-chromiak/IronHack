@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', helvetica;
+  font-size: 14px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+/* /SCHEDULE SECTION/ */
+.slot-form>button{
+  border: 1px solid black;
+  color: black;
+  background: white;
+  padding: 6px;
+  margin-top: 15px;
+}
+.slot-form>input{
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+}
+.slot-form-container{
+  width: 40%;
+  margin: 18px auto 0 auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+.schedule-table{
+  margin: 0 auto 40px auto;
+  font-size: 1.5em;
+}
+td{
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
+}
+th{
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
+///////////////
+///////////////
+}
+
+/* FOOTER */
+
+.social-icons{
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+}
+.address{
+  font-style: normal;
+  font-size: 1.4em;
+}
+.map-frame{
+  height: 375px;
+  float: left;
+  width: 60%;
+}
+.footer{
+  font-size: 1em;
+  text-align: center;
+  padding: 0 100px;
+  margin: 25px 0;
+}
+address{
+  margin: 30px 0;
+}
+////////////
+////////////
+
+/* TEAM */
+#team .section-text{
+  font-size: 1.9em;
+  text-align: center;
+  width: 60%;
+  margin: 10px auto;
+}
+.member-name{
+  display: block;
+  text-align: center;
+}
+hr{
+  margin: 20px auto 30px;
+  width: 40%;
+}
+.service-box{
+  font-size: 1.7em;
+  text-align: center;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+}
+.link-btn{
+  background: rgb(67, 163, 230);
+  color: white;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  margin: 40px auto 0;
+  padding: 14px 20px;
+  border: 2px solid rgb(0, 0, 0, .2);
+}
+
+/////////////
+////////////
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+.text{
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px 0;
+}
+.dark-background{
+  background: rgb(25, 33, 41);
+  color: white;
+}
+.col{
+  float: left; /* FIXME:  */
+}
+.col-3{
+  width: 30%;
+}
+.col-middle{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.clearfix{
+  clear: both;
+}
+/////////////
+////////////
+/* HEADER */
+aside{
+  position: absolute;
+  left: 10%;
+  bottom: 15vh;
+}
+.header > h2{
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+}
+/////
+
+h1{
+  font-size: 9em;
+  text-align: center;
+  transform: uppercase;
+}
+h2{
+  font-size: 5em;
+  text-align: center;
+  transform: uppercase;
+}
+h3{
+  font-size: 1.9em;
+  text-align: center;
+}
+h4{
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+}
+h5{
+  font-size: 1.2em;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Roboto Condensed'
+}
+
+/* FOR ALL LINKS/LIST */
+ul >li{
+  list-style: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.header{
+  background-image: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
+  position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  position: relative;
+}
+
+.nav-bar-li{
+  list-style-type: none;
+  text-align: center;
+  float: left;
+  width: 33%
+}
+.nav-bar-ul{
+  width: 1200px;
+  margin: 0 auto;
+
+}
+.nav-bar{
+  background: rgb(25,33,41);
+  border: 14px 0;
+  height: 45px;
+
+}
