@@ -1,0 +1,229 @@
+.section-three-card>h3{
+  color: rgb(135, 145, 156);
+  display: block;
+  text-align: center;
+  padding: 1em;
+}
+.section-three-card-p>a{
+  color: rgb(208, 74, 73);
+}
+.section-three-card>img{
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.section-three-card-p{
+  font-size: 16px;
+  font-weight: 400;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+	margin-right: auto;
+}
+.section-three-card{
+  width: 33%;
+  float: left;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.section-three-head>h3{
+  color: rgb(83, 88, 98);
+  font-weight: 500;
+}
+.section-three-head>h5{
+  color: rgb(135, 145, 156)
+}
+.section-three-head{
+  padding-top: 25px;
+  text-align: center;
+}
+
+.section-two-btn{
+  background: rgb(49, 68, 88);
+  border: 1px solid rgb(49, 68, 88);
+  border-radius: 20px;
+  width: 30%;
+  height: 35px;
+  color: rgba(255,255,255,0.8);
+
+}
+.section-two-content{
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 30%;
+  line-height: 1.8em;
+}
+.section-two{
+  background-image: url("images/npm-is-BOXES.svg");
+  background-size: cover;
+  height: 500px;
+  width: auto;
+  position: relative;
+  color: rgba(255,255,255,0.8);
+}
+
+.section-one-button{
+  background: rgb(203, 56, 55);
+  border: 1px solid rgb(203, 56, 55);
+  border-radius: 20px;
+  width: 40%;
+  height: 30px;
+  margin-top: 10px;
+}
+.section-one-collab-img>img{
+  max-width: 40vw;
+  height: auto;
+  height: auto;
+  float: left;
+  margin-left: 15%
+}
+.section-one-list{
+  float: right;
+}
+.section-one-content{
+  margin-right: 10%;
+}
+.section-one{
+  background: rgb(39, 53, 71);
+  margin-top: 0;
+  padding: 40px 0;
+  color: rgba(255,255,255,0.8);
+}
+
+
+.header-user-buttons{
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+.header-btn-search{
+  background: red;
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 15px;
+  border: 1px solid red;
+  border-radius: 0 5px 5px 0;
+  width: 75px;
+}
+.header-btn-sign-up{
+  display: block;
+  margin: 20px;
+  background: rgb(240, 146, 51);
+  border-radius: 20px;
+  width: 75%;
+  border: 1px solid rgb(240, 146, 51);
+  padding: 10px;
+}
+.header-btn{
+  font-size: 0.8em;
+}
+.p-text{
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+
+}
+.header-content>p{
+  width: 25%;
+  position: relative;
+  left: 10%;
+  top: 20%;
+}
+.header-content>h1{
+  top: 10%;
+  left: 10%;
+  position: relative;
+}
+.header-content{
+  background-image: url("images/hero-cityscape.png");
+  position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  height: 600px;
+  width: auto;
+  overflow-x: hidden;
+  margin-left: -2px;   /* there was a small gap w/o -2 margin  */
+
+}
+.header-bar-btn{
+  float: left;
+  margin: 10px auto auto 20px;
+}
+.header-search{
+  display: inline-block;
+  float: left;
+  margin: 10px auto;
+  height: 28px;
+  width: 70%;
+  border: 1px solid lightblue;
+  font-weight: 400;
+}
+.header-left-logo>img{
+  height: 45px;
+  width: auto;
+  padding: 5px;
+  float: left;
+}
+.header-logo-search-btn{
+background: white;
+height: 50px;
+}
+
+.nav-bar-links>li{
+  float: right;
+  display: inline-block;
+  padding: 5px;
+  top: 0;
+  color: rgba(255,255,255,0.8);
+}
+.nav-bar-brand{
+  float: left;
+  display: inline-block;
+  padding: 5px;
+  color: rgba(255,255,255,0.8);
+}
+.nav-bar{
+  background: #C12127;;
+  margin-top: 0px;
+}
+.clearfix{
+  clear: both;
+}
+
+li{
+  line-height: 1.8em;
+  color: rgba(255,255,255,0.8);
+}
+h1{
+  font-size: 38px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.8);
+}
+h2{
+  font-size: 34px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.8);
+}
+h3{
+  font-size: 30px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.8);
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Segoe UI;
+}
+/* TODO:
+a tags
+fonts
+buttons
+colors
+ */
