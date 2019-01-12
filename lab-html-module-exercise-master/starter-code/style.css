@@ -55,7 +55,7 @@
   line-height: 1.8em;
 }
 .section-two{
-  background-image: url("images/npm-is-BOXES.svg");
+  background-image: url("./images/forklift.svg");
   background-size: cover;
   height: 500px;
   width: auto;
@@ -100,12 +100,13 @@
 }
 .header-btn-search{
   background: red;
-  padding: 10px;
+  height: 30px;
   display: inline-block;
-  margin-bottom: 15px;
-  border: 1px solid red;
+  color: white;
+  border: none;
   border-radius: 0 5px 5px 0;
   width: 75px;
+  font-size: 0.8em;
 }
 .header-btn-sign-up{
   display: block;
@@ -138,19 +139,17 @@
 }
 .header-content{
   background-image: url("images/hero-cityscape.png");
-  position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
   height: 600px;
-  width: auto;
+  padding-top: 50px;
   overflow-x: hidden;
   margin-left: -2px;   /* there was a small gap w/o -2 margin  */
 
 }
 .header-bar-btn{
   float: left;
-  margin: 10px auto auto 20px;
+  margin: 10px auto auto 0;
 }
 .header-search{
   display: inline-block;
